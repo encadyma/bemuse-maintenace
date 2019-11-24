@@ -3,7 +3,8 @@ echo "All .zip files will be copied from ~/Downloads/bemuse."
 echo "This script will continue in two seconds..."
 sleep 2
 
-if [ -d ./working ]; then
+if [ -d ./working ]
+then
 	echo "Cleaning ./working directory."
 	rm -rf ./working
 fi
